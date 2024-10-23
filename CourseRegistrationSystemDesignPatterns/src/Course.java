@@ -109,16 +109,7 @@ public int getSection() {
 public void setSection(int section) {
 	this.section = section;
 }
-/*@Override
-protected Object clone() throws CloneNotSupportedException {
-/*
- *Summary:Implements the Prototype pattern to allow courses to be cloned into new sections. 
- *   
- *   
- */
-	
-	//return super.clone();
-//}*/
+
 @Override
 protected Object clone() throws CloneNotSupportedException {
 	/*
